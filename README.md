@@ -4,11 +4,11 @@ This class is designed to parse and manipulate the Windows host file. The host f
 
 ## Available Functions
 
-### WindowsHostFile.Parse(string Path)
+### Parse(string Path)
 
 This function parses the host file located at the specified path and returns a WindowsHostFile object.
 
-### WindowsHostFile.WriteFile()
+### WriteFile()
 
 This function writes the contents of WindowsHostFile object to disk. 
 
