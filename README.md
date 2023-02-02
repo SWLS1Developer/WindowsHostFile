@@ -16,8 +16,8 @@ This function writes the contents of WindowsHostFile object to disk.
 
 
 ```csharp
-            string file = Path.Combine(Path.GetPathRoot(Environment.SystemDirectory), "Windows\\System32\\Drivers\\Etc\\hosts");
-            hosts = WindowsHostFile.Parse(file); 
+string file = Path.Combine(Path.GetPathRoot(Environment.SystemDirectory), "Windows\\System32\\Drivers\\Etc\\hosts");
+hosts = WindowsHostFile.Parse(file); 
 ```
 
 ## Notes
